@@ -1,0 +1,4 @@
+run = "python -m streamlit run src/m4_ui/app.py"
+
+[dev]
+run = "pytest -v -m 'not live'"
